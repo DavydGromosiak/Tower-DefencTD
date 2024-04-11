@@ -1,0 +1,359 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'uk' Physical Memory: 7488 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Davyd/GitHub/Tower-DefencTD/Tower-Defenc
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50593
+Successfully changed project path to: C:/Users/Davyd/GitHub/Tower-DefencTD/Tower-Defenc
+C:/Users/Davyd/GitHub/Tower-DefencTD/Tower-Defenc
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10472] Host "[IP] 192.168.0.237 [Port] 0 [Flags] 2 [Guid] 2260111700 [EditorId] 2260111700 [Version] 1048832 [Id] WindowsEditor(7,HP-Davyd) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10472] Host "[IP] 192.168.0.237 [Port] 0 [Flags] 2 [Guid] 2260111700 [EditorId] 2260111700 [Version] 1048832 [Id] WindowsEditor(7,HP-Davyd) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 51.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Davyd/GitHub/Tower-DefencTD/Tower-Defenc/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     3744 MB
+    Driver:   31.0.21905.1001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.020394 seconds.
+- Loaded All Assemblies, in  1.551 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.890 seconds
+Domain Reload Profiling: 2438ms
+	BeginReloadAssembly (710ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (204ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (195ms)
+	LoadAllAssembliesAndSetupDomain (399ms)
+		LoadAssemblies (703ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (395ms)
+			TypeCache.Refresh (390ms)
+				TypeCache.ScanAssembly (355ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (891ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (698ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (25ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.876 seconds
+Refreshing native plugins compatible for Editor in 9.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.156 seconds
+Domain Reload Profiling: 4029ms
+	BeginReloadAssembly (371ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (1262ms)
+		LoadAssemblies (959ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (519ms)
+			TypeCache.Refresh (473ms)
+				TypeCache.ScanAssembly (434ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2157ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1699ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (1475ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 16.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3571.
+Memory consumption went from 115.0 MB to 115.0 MB.
+Total: 8.123600 ms (FindLiveObjects: 0.502700 ms CreateObjectMapping: 0.261100 ms MarkObjects: 7.147400 ms  DeleteObjects: 0.209900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20380.669996 seconds.
+  path: Assets/Davyd/Scena/MapsD.unity
+  artifactKey: Guid(5e150a23a0612a8409e3cf067dcb0189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Scena/MapsD.unity using Guid(5e150a23a0612a8409e3cf067dcb0189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc25a818a5cfb2bea5fe131391ecab4c') in 0.006642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 402.699836 seconds.
+  path: Assets/Davyd/ktc_ltbkf_2.fbx
+  artifactKey: Guid(bee84c20acb3bf446b7f637dcf75789c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/ktc_ltbkf_2.fbx using Guid(bee84c20acb3bf446b7f637dcf75789c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab73bb428e92177696f67ed8dc43336') in 7.014519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1621
+========================================================================
+Received Import Request.
+  Time since last request: 17.151951 seconds.
+  path: Assets/Davyd/Forest Map.fbx
+  artifactKey: Guid(c292a93221fe4b6418edc896f2e616ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Forest Map.fbx using Guid(c292a93221fe4b6418edc896f2e616ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4bcaa8ee9449d99f5810d8623d64da') in 3.238352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 736
+========================================================================
+Received Import Request.
+  Time since last request: 30.127968 seconds.
+  path: Assets/Davyd/cytu_ltbkf_2.fbx
+  artifactKey: Guid(2f38cbaddbc270c4885f58b3675d0ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/cytu_ltbkf_2.fbx using Guid(2f38cbaddbc270c4885f58b3675d0ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503cdbb1994b6d7f8456f4dd98d81809') in 6.379831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1621
+========================================================================
+Received Import Request.
+  Time since last request: 14.644541 seconds.
+  path: Assets/Davyd/Maps.fbx
+  artifactKey: Guid(2f38cbaddbc270c4885f58b3675d0ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Maps.fbx using Guid(2f38cbaddbc270c4885f58b3675d0ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58650c7efe0ad2ab2bb7609f337b9818') in 6.490892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1621
+========================================================================
+Received Import Request.
+  Time since last request: 5.685510 seconds.
+  path: Assets/Davyd/SandMap.fbx
+  artifactKey: Guid(741e71bce4d2f8948b1fc4aa2c316120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/SandMap.fbx using Guid(741e71bce4d2f8948b1fc4aa2c316120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6397bf66f2fe30286d27c8904f4308') in 3.979095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 666
+========================================================================
+Received Import Request.
+  Time since last request: 54.064731 seconds.
+  path: Assets/Davyd/Blender
+  artifactKey: Guid(421a8dfe39e2c664c908948bdd889c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Blender using Guid(421a8dfe39e2c664c908948bdd889c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715c656b4c2300f9d4d1b9f31207a4f4') in 0.002144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.975580 seconds.
+  path: Assets/Davyd/0201e313f3e9daa7.fbx
+  artifactKey: Guid(ecc2c1df12bd6e64cbbdbc3d4b8f4551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/0201e313f3e9daa7.fbx using Guid(ecc2c1df12bd6e64cbbdbc3d4b8f4551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c30cb4865c40b2940b2ee3b7387eb4') in 1.174489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 238
+========================================================================
+Received Import Request.
+  Time since last request: 17.984633 seconds.
+  path: Assets/Davyd/SnowMap.fbx
+  artifactKey: Guid(ecc2c1df12bd6e64cbbdbc3d4b8f4551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/SnowMap.fbx using Guid(ecc2c1df12bd6e64cbbdbc3d4b8f4551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7616619d2b610be1dbc70d62cd066299') in 1.084756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 238
+========================================================================
+Received Import Request.
+  Time since last request: 11.432752 seconds.
+  path: Assets/Davyd/ForestMap.fbx
+  artifactKey: Guid(2fdc5ba2125165e448528acd03eb8da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/ForestMap.fbx using Guid(2fdc5ba2125165e448528acd03eb8da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed18f5f21d8220c1f84e7d9fe50fdee') in 3.337817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 736
+========================================================================
+Received Import Request.
+  Time since last request: 15.175002 seconds.
+  path: Assets/Davyd/Blender/Maps
+  artifactKey: Guid(45fe322e638561c4ba1d3091abf383b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Blender/Maps using Guid(45fe322e638561c4ba1d3091abf383b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c80f13c9e0266c0853ad8e76dc83ee') in 0.002500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.980 seconds
+Refreshing native plugins compatible for Editor in 5.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 24.613 seconds
+Domain Reload Profiling: 31589ms
+	BeginReloadAssembly (589ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (191ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (6189ms)
+		LoadAssemblies (6429ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (24615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1554ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (1291ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 17.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.7 KB). Loaded Objects now: 3619.
+Memory consumption went from 120.7 MB to 120.7 MB.
+Total: 13.176800 ms (FindLiveObjects: 1.046600 ms CreateObjectMapping: 0.476200 ms MarkObjects: 11.433100 ms  DeleteObjects: 0.216900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 334.072858 seconds.
+  path: Assets/Davyd/Scena/MapsD.unity
+  artifactKey: Guid(5e150a23a0612a8409e3cf067dcb0189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Scena/MapsD.unity using Guid(5e150a23a0612a8409e3cf067dcb0189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76166998bb6c68fc8031abe69cc0e6c') in 0.005367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Davyd/Scena/TestingD1.unity
+  artifactKey: Guid(76aa97fbb573c3a4c895267fc6d77f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Scena/TestingD1.unity using Guid(76aa97fbb573c3a4c895267fc6d77f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ec77aba94e72bd5a682b973c905bea') in 0.001040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 123.231619 seconds.
+  path: Assets/Davyd/Blender/Maps/243692c6e63c7e76.fbx
+  artifactKey: Guid(3d83fdffc0a6f37409f3a5193d5fc7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Blender/Maps/243692c6e63c7e76.fbx using Guid(3d83fdffc0a6f37409f3a5193d5fc7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efdc677272d668ee502dbf0b04f3db2') in 3.469662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 736
