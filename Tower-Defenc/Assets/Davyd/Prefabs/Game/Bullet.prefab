@@ -54,9 +54,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 988d30a71f94a434783c84839bb8f171, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 70
+  speed: 100
   damage: 50
-  explosionRadius: 2
+  explosionRadius: 3
   impactEffect: {fileID: 2128026049063296769, guid: a13348375aeba144a88e57bf49eb3f38, type: 3}
 --- !u!23 &3990312964676068186
 MeshRenderer:
