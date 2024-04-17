@@ -205,7 +205,7 @@ MonoBehaviour:
   impactLight: {fileID: 0}
   enemyTag: Enemy
   partToRotate: {fileID: 2707275804701054775}
-  turnSpeed: 1
+  turnSpeed: 10
   firePoint: {fileID: 7903114076421865121}
 --- !u!1 &8914023974909548959
 GameObject:
