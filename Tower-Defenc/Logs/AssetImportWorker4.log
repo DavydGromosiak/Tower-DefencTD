@@ -2224,3 +2224,11 @@ Received Import Request.
 Start importing Assets/Artem/Scenes/ArtemTestScene.unity using Guid(9eb610a884d439344a667e6801a226ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eff1e0139f6e8f7a0a27a114a74ee39') in 0.000530 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 806.248469 seconds.
+  path: Assets/Assets/iconset/dark
+  artifactKey: Guid(78abc7d615d4c1449b3d29f6f1f7c825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/iconset/dark using Guid(78abc7d615d4c1449b3d29f6f1f7c825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b766300d043f22c7347afc65cd28de20') in 0.000681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

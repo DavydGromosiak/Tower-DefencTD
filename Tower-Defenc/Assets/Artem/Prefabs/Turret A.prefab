@@ -28,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.838591, y: 0, z: 1.1311111}
-  m_LocalScale: {x: 8, y: 8, z: 8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4423331682768728526}
@@ -50,7 +50,8 @@ MonoBehaviour:
   prefabBullet: {fileID: 1298255694987178976, guid: 0c317b1ecccd80f4fa2f70edb4e2b754, type: 3}
   firePoint: {fileID: 8258191731737749232}
   collider: {fileID: 1958076013442450960}
-  cooldown: 0.5
+  turretHead: {fileID: 4398453577666698308}
+  cooldown: 1
   range: 10
 --- !u!135 &1958076013442450960
 SphereCollider:
