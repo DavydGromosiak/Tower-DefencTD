@@ -7,6 +7,8 @@ public class TurretShootControllerA : MonoBehaviour
     [SerializeField] private GameObject prefabBullet;
     [SerializeField] private Transform firePoint;
     [SerializeField] private SphereCollider collider;
+    [SerializeField] private GameObject turretHead;
+
     [SerializeField] private float cooldown;
     [SerializeField] private float range;
 
@@ -19,9 +21,9 @@ public class TurretShootControllerA : MonoBehaviour
     IEnumerator OnFire()
     {
         while (prefabBullet != null)
-        {
-            GameObject getBullet = Instantiate(prefabBullet, firePoint.position, Quaternion.identity);
-            firePoint.transform.LookAt(_target.transform.position);
+        {            
+            firePoint.transform.LookAt(_target.transform.position);           
+            GameObject getBullet = Instantiate(prefabBullet, firePoint.position, Quaternion.identity);          
 
             Rigidbody rb = getBullet.GetComponent<Rigidbody>();
             rb.AddForce(firePoint.forward * 100f, ForceMode.Impulse);
@@ -29,6 +31,10 @@ public class TurretShootControllerA : MonoBehaviour
             yield return new WaitForSeconds(cooldown);
         }
     }
+    //private void LateUpdate()
+    //{
+    //    turretHead.transform.LookAt(_target.transform.position);
+    //}
 
     #region GetTarget
 
@@ -56,6 +62,10 @@ public class TurretShootControllerA : MonoBehaviour
         {
             _target = other.gameObject;
             StartCoroutine(OnFire());
+        }
+        if(_target != null)
+        {
+            turretHead.transform.LookAt(_target.transform.position);
         }
     }
     #endregion
