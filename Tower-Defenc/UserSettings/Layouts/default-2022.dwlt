@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 19
+  controlID: 137
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 110
+  controlID: 84
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -444,9 +444,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: dc5b0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 44faffff605a0000c05a0000da5a0000
+      m_SelectedIDs: 40d4ffff
+      m_LastClickedID: -11200
+      m_ExpandedIDs: 2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -514,7 +514,8 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/Artem/Prefabs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -530,7 +531,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: c6590000
     m_LastClickedID: 22982
-    m_ExpandedIDs: 00000000685b0000
+    m_ExpandedIDs: 00000000c05a0000c25a0000c45a0000c65a0000c85a0000ca5a0000cc5a0000ce5a0000d05a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -555,10 +556,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 384}
+    scrollPos: {x: 0, y: 464}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000685b00008c5b0000905b0000a45b0000c45b0000ce5b0000d05b0000d25b0000245c0000
+    m_ExpandedIDs: ffffffff00000000c05a0000c25a0000c45a0000c65a0000c85a0000ca5a0000cc5a0000ce5a0000d05a0000f85a0000005b0000105b0000145b0000405b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -700,11 +701,11 @@ MonoBehaviour:
       size: {x: 0, y: 0}
       sizeOverriden: 0
     - dockPosition: 0
-      containerId: overlay-toolbar__bottom
-      floating: 0
+      containerId: Floating
+      floating: 1
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 26.399998}
+      snapOffset: {x: 21, y: 135}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -877,7 +878,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 2
       id: Scene View/Particles
-      index: 1
+      index: 0
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -1009,9 +1010,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 14.621008, y: -128.53961, z: 452.88992}
+    m_Target: {x: -37.680008, y: -264.1929, z: 425.62842}
     speed: 2
-    m_Value: {x: 14.621008, y: -128.53961, z: 452.88992}
+    m_Value: {x: -37.680008, y: -264.1929, z: 425.62842}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1057,13 +1058,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.14349556, y: 0.010684195, z: -0.0015494267, w: 0.9895968}
+    m_Target: {x: 0.28679806, y: -0.027014758, z: 0.008090529, w: 0.95758027}
     speed: 2
-    m_Value: {x: 0.14349489, y: 0.010684146, z: -0.0015494195, w: 0.9895922}
+    m_Value: {x: 0.2853602, y: -0.02702675, z: 0.008049963, w: 0.9580054}
   m_Size:
-    m_Target: 249.3401
+    m_Target: 384.64743
     speed: 2
-    m_Value: 238.60297
+    m_Value: 384.64743
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1237,7 +1238,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Davyd/Prefabs/Game
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1245,16 +1246,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 74
   m_LastFolders:
-  - Assets
+  - Assets/Davyd/Prefabs/Game
   m_LastFoldersGridSize: 74
   m_LastProjectPath: C:\Users\artem\Documents\GitHub\Tower-DefencTD\Tower-DefencTD\Tower-Defenc
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 685b0000
-    m_LastClickedID: 23400
-    m_ExpandedIDs: 00000000685b00008c5b0000905b0000ce5b0000d05b0000d25b0000245c000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 235}
+    m_SelectedIDs: 0e5b0000
+    m_LastClickedID: 23310
+    m_ExpandedIDs: 00000000c05a0000c25a0000c45a0000ca5a0000cc5a0000ce5a0000d05a0000005b0000145b0000405b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1282,7 +1283,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000685b0000
+    m_ExpandedIDs: 00000000c05a0000c25a0000c45a0000c65a0000c85a0000ca5a0000cc5a0000ce5a0000d05a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
