@@ -1,4 +1,7 @@
-Base path: 'D:/2022.3.10f1/Editor/Data', plugins path 'D:/2022.3.10f1/Editor/Data/PlaybackEngines'
+Base path: 'E:/2022.3.10f1/Editor/Data', plugins path 'E:/2022.3.10f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
+<<<<<<< HEAD
 Cmd: shutdown
+=======
+>>>>>>> bd18f149e79513d955af8b46bfa41cb5f1b3eea4
