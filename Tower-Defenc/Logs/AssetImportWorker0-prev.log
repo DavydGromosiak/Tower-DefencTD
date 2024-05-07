@@ -15,7 +15,11 @@ C:/Users/Davyd/GitHub/Tower-DefencTD/Tower-Defenc
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 56375
+=======
+64378
+>>>>>>> Stashed changes
 Successfully changed project path to: C:/Users/Davyd/GitHub/Tower-DefencTD/Tower-Defenc
 C:/Users/Davyd/GitHub/Tower-DefencTD/Tower-Defenc
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +53,21 @@ C:/Users/Davyd/GitHub/Tower-DefencTD/Tower-Defenc
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [12656] Host "[IP] 192.168.0.237 [Port] 0 [Flags] 2 [Guid] 1001317400 [EditorId] 1001317400 [Version] 1048832 [Id] WindowsEditor(7,HP-Davyd) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [12656] Host "[IP] 192.168.0.237 [Port] 0 [Flags] 2 [Guid] 1001317400 [EditorId] 1001317400 [Version] 1048832 [Id] WindowsEditor(7,HP-Davyd) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
 Refreshing native plugins compatible for Editor in 32.55 ms, found 3 plugins.
+=======
+Player connection [6296] Host "[IP] 192.168.0.237 [Port] 0 [Flags] 2 [Guid] 3020628138 [EditorId] 3020628138 [Version] 1048832 [Id] WindowsEditor(7,HP-Davyd) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6296] Host "[IP] 192.168.0.237 [Port] 0 [Flags] 2 [Guid] 3020628138 [EditorId] 3020628138 [Version] 1048832 [Id] WindowsEditor(7,HP-Davyd) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 34.21 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,6 +83,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -81,10 +95,24 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.343 seconds
 Domain Reload Profiling: 885ms
 	BeginReloadAssembly (196ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008914 seconds.
+- Loaded All Assemblies, in  0.565 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.359 seconds
+Domain Reload Profiling: 924ms
+	BeginReloadAssembly (227ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (44ms)
 	RebuildNativeTypeToScriptingClass (15ms)
@@ -108,6 +136,31 @@ Domain Reload Profiling: 885ms
 			BeforeProcessingInitializeOnLoad (3ms)
 			ProcessInitializeOnLoadAttributes (164ms)
 			ProcessInitializeOnLoadMethodAttributes (60ms)
+=======
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (223ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (166ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (360ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (272ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,22 +168,34 @@ Domain Reload Profiling: 885ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  1.185 seconds
 Refreshing native plugins compatible for Editor in 8.19 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  1.026 seconds
+Refreshing native plugins compatible for Editor in 10.38 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  1.208 seconds
 Domain Reload Profiling: 2392ms
 	BeginReloadAssembly (252ms)
+=======
+- Finished resetting the current domain, in  0.892 seconds
+Domain Reload Profiling: 1916ms
+	BeginReloadAssembly (188ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (30ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (44ms)
 	RebuildNativeTypeToScriptingClass (14ms)
 	initialDomainReloadingComplete (45ms)
@@ -153,10 +218,35 @@ Domain Reload Profiling: 2392ms
 			BeforeProcessingInitializeOnLoad (70ms)
 			ProcessInitializeOnLoadAttributes (901ms)
 			ProcessInitializeOnLoadMethodAttributes (22ms)
+=======
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (738ms)
+		LoadAssemblies (619ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (176ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (893ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (691ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (563ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
+<<<<<<< Updated upstream
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
 Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -164,6 +254,15 @@ Unloading 3156 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 30 unused Assets / (29.1 KB). Loaded Objects now: 3626.
 Memory consumption went from 189.7 MB to 189.6 MB.
 Total: 7.238600 ms (FindLiveObjects: 0.730800 ms CreateObjectMapping: 0.216400 ms MarkObjects: 6.028500 ms  DeleteObjects: 0.258400 ms)
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (29.1 KB). Loaded Objects now: 3581.
+Memory consumption went from 188.7 MB to 188.7 MB.
+Total: 8.082800 ms (FindLiveObjects: 0.796800 ms CreateObjectMapping: 0.253200 ms MarkObjects: 6.782400 ms  DeleteObjects: 0.245600 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,30 +280,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 9550.431424 seconds.
   path: Assets/Davyd/Scena/Make/levl1.unity
   artifactKey: Guid(1e60890a0e864b9408586df2fc58ca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Davyd/Scena/Make/levl1.unity using Guid(1e60890a0e864b9408586df2fc58ca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f9126716e764ae7b1e3d981cee2e5c') in 0.008872 seconds
+=======
+  Time since last request: 212217.668989 seconds.
+  path: Assets/Davyd/Scena/Make/SnowMap.unity
+  artifactKey: Guid(1e60890a0e864b9408586df2fc58ca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Scena/Make/SnowMap.unity using Guid(1e60890a0e864b9408586df2fc58ca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9005ed5f33915e8faf7c98fb67e12de1') in 0.006497 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 7.585981 seconds.
   path: Assets/Davyd/Scena/Make/Level2.unity
   artifactKey: Guid(ee98a1b2d6377274db5781f37ef89dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Davyd/Scena/Make/Level2.unity using Guid(ee98a1b2d6377274db5781f37ef89dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11976b9a3b9bb099e05897e3a5caa0a') in 0.000647 seconds
+=======
+  Time since last request: 1.456991 seconds.
+  path: Assets/Davyd/Scena/Testing/MapsD.unity
+  artifactKey: Guid(5e150a23a0612a8409e3cf067dcb0189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Scena/Testing/MapsD.unity using Guid(5e150a23a0612a8409e3cf067dcb0189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e8047a1a157234470e5992474dc567') in 0.000787 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 1.293686 seconds.
   path: Assets/Davyd/Scena/Make/Level2 1.unity
   artifactKey: Guid(20e1e4b9120b050418d7a94eb0c2cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Davyd/Scena/Make/Level2 1.unity using Guid(20e1e4b9120b050418d7a94eb0c2cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa494439d3af22b98a58092095272f0') in 0.000605 seconds
+=======
+  Time since last request: 220.747289 seconds.
+  path: Assets/Davyd/Scena/Make/SnowMap.unity
+  artifactKey: Guid(1e60890a0e864b9408586df2fc58ca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Scena/Make/SnowMap.unity using Guid(1e60890a0e864b9408586df2fc58ca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccaf3fb4e4055aedc87420c68273dd08') in 0.001461 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 9.892199 seconds.
   path: Assets/Davyd/Scena/Make/Level1.unity
   artifactKey: Guid(1e60890a0e864b9408586df2fc58ca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -249,10 +370,17 @@ Received Import Request.
   path: Assets/Davyd/Scena/Make/Level3.unity
   artifactKey: Guid(20e1e4b9120b050418d7a94eb0c2cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Davyd/Scena/Make/Level3.unity using Guid(20e1e4b9120b050418d7a94eb0c2cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4529c4d91b19b4e8d8b3fe235b9401df') in 0.000886 seconds
+=======
+  Time since last request: 19.079651 seconds.
+  path: Assets/Davyd/Animation/ExplLight.anim
+  artifactKey: Guid(a60ad1ef7d5b1c040a419f79085294d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Animation/ExplLight.anim using Guid(a60ad1ef7d5b1c040a419f79085294d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1379b804aed9e82f169fbb36bd452822') in 0.013801 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 378.087844 seconds.
   path: Assets/Davyd/Scena/Make/-LevelSetings.unity
   artifactKey: Guid(e2dfd3818b2c76c4f8684a2debb0f5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -312,11 +440,25 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  2.030 seconds
 Refreshing native plugins compatible for Editor in 8.90 ms, found 3 plugins.
+=======
+  Time since last request: 1514.209439 seconds.
+  path: Assets/Davyd/Scena/Make/SnowMap.unity
+  artifactKey: Guid(1e60890a0e864b9408586df2fc58ca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Scena/Make/SnowMap.unity using Guid(1e60890a0e864b9408586df2fc58ca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a9546d7b7933414a9687f52561e81e') in 0.007400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.925 seconds
+Refreshing native plugins compatible for Editor in 7.59 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  3.177 seconds
 Domain Reload Profiling: 5205ms
 	BeginReloadAssembly (816ms)
@@ -489,6 +631,48 @@ Unloading 3149 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3680.
 Memory consumption went from 193.2 MB to 193.2 MB.
 Total: 8.650000 ms (FindLiveObjects: 0.954600 ms CreateObjectMapping: 0.343100 ms MarkObjects: 7.247200 ms  DeleteObjects: 0.101700 ms)
+=======
+- Finished resetting the current domain, in  3.226 seconds
+Domain Reload Profiling: 5151ms
+	BeginReloadAssembly (560ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (167ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (1187ms)
+		LoadAssemblies (1442ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (50ms)
+			TypeCache.Refresh (35ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (3228ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (981ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 8.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3585.
+Memory consumption went from 187.2 MB to 187.2 MB.
+Total: 11.596400 ms (FindLiveObjects: 0.731600 ms CreateObjectMapping: 0.183300 ms MarkObjects: 10.411900 ms  DeleteObjects: 0.266800 ms)
+>>>>>>> Stashed changes
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
