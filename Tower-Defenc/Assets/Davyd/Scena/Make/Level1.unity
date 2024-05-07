@@ -3719,11 +3719,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2075810632944360208, guid: 6bb95113c6836924bb64c0afc5f2995a, type: 3}
   m_PrefabInstance: {fileID: 1099880741}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!4 &2008902521 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5167563792555377898, guid: b3f177c5c4b4aba489ff3a7fe79659db, type: 3}
   m_PrefabInstance: {fileID: 652141930}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 678abef (Merge branch 'main' of https://github.com/DavydGromosiak/Tower-DefencTD)
 --- !u!1 &2076530659
 GameObject:
   m_ObjectHideFlags: 0
