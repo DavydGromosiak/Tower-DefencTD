@@ -10,7 +10,7 @@ public class LoadLevel : MonoBehaviour
     
     public void Level02()
     {
-        SceneManager.LoadScene("Level 2");
+        SceneManager.LoadScene("Level2");
     }
     
     public void Level03()
