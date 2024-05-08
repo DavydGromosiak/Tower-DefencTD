@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'uk' Physical Memory: 7488 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 16258 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+E:\2022.3.10f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Davyd/GitHub/Tower-DefencTD/Tower-Defenc
+C:/Users/artem/Documents/GitHub/Tower-DefencTD/Tower-DefencTD/Tower-Defenc
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65437
-Successfully changed project path to: C:/Users/Davyd/GitHub/Tower-DefencTD/Tower-Defenc
-C:/Users/Davyd/GitHub/Tower-DefencTD/Tower-Defenc
+63108
+Successfully changed project path to: C:/Users/artem/Documents/GitHub/Tower-DefencTD/Tower-DefencTD/Tower-Defenc
+C:/Users/artem/Documents/GitHub/Tower-DefencTD/Tower-DefencTD/Tower-Defenc
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,68 @@ C:/Users/Davyd/GitHub/Tower-DefencTD/Tower-Defenc
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19680] Host "[IP] 192.168.0.237 [Port] 0 [Flags] 2 [Guid] 1456499720 [EditorId] 1456499720 [Version] 1048832 [Id] WindowsEditor(7,HP-Davyd) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27588] Host "[IP] 26.137.150.133 [Port] 0 [Flags] 2 [Guid] 2036772631 [EditorId] 2036772631 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EDNUEP4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19680] Host "[IP] 192.168.0.237 [Port] 0 [Flags] 2 [Guid] 1456499720 [EditorId] 1456499720 [Version] 1048832 [Id] WindowsEditor(7,HP-Davyd) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27588] Host "[IP] 26.137.150.133 [Port] 0 [Flags] 2 [Guid] 2036772631 [EditorId] 2036772631 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EDNUEP4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 19.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Davyd/GitHub/Tower-DefencTD/Tower-Defenc/Assets
+[Subsystems] Discovering subsystems at path E:/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/artem/Documents/GitHub/Tower-DefencTD/Tower-DefencTD/Tower-Defenc/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
-    Vendor:   ATI
-    VRAM:     3744 MB
-    Driver:   31.0.21905.1001
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
+    Vendor:   NVIDIA
+    VRAM:     12011 MB
+    Driver:   31.0.15.5123
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Mono path[0] = 'E:/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'E:/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005624 seconds.
-- Loaded All Assemblies, in  0.405 seconds
+Register platform support module: E:/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004432 seconds.
+- Loaded All Assemblies, in  0.432 seconds
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 223 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.297 seconds
-Domain Reload Profiling: 701ms
-	BeginReloadAssembly (139ms)
+- Finished resetting the current domain, in  0.588 seconds
+Domain Reload Profiling: 1020ms
+	BeginReloadAssembly (145ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (137ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (143ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (151ms)
-				TypeCache.ScanAssembly (139ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (157ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (297ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (589ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (233ms)
+		SetupLoadedEditorAssemblies (524ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (349ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (156ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,199 +118,139 @@ Domain Reload Profiling: 701ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.901 seconds
-Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.686 seconds
+Refreshing native plugins compatible for Editor in 3.43 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.959 seconds
-Domain Reload Profiling: 1857ms
-	BeginReloadAssembly (212ms)
+- Finished resetting the current domain, in  0.642 seconds
+Domain Reload Profiling: 1327ms
+	BeginReloadAssembly (162ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (580ms)
-		LoadAssemblies (478ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (424ms)
+		LoadAssemblies (291ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (229ms)
-			TypeCache.Refresh (203ms)
-				TypeCache.ScanAssembly (182ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (181ms)
 			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (959ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (642ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (761ms)
+		SetupLoadedEditorAssemblies (446ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (635ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 4.79 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3157 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (29.1 KB). Loaded Objects now: 3628.
-Memory consumption went from 189.8 MB to 189.8 MB.
-Total: 7.424500 ms (FindLiveObjects: 0.588900 ms CreateObjectMapping: 0.186100 ms MarkObjects: 6.541800 ms  DeleteObjects: 0.105500 ms)
+Unloading 31 unused Assets / (56.8 KB). Loaded Objects now: 3628.
+Memory consumption went from 122.4 MB to 122.3 MB.
+Total: 3.902400 ms (FindLiveObjects: 0.295000 ms CreateObjectMapping: 0.265700 ms MarkObjects: 3.243400 ms  DeleteObjects: 0.097600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.513 seconds
-Refreshing native plugins compatible for Editor in 5.55 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.478 seconds
-Domain Reload Profiling: 1990ms
-	BeginReloadAssembly (172ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (258ms)
-		LoadAssemblies (331ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1479ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (884ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (10ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (732ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3631.
-Memory consumption went from 188.5 MB to 188.5 MB.
-Total: 11.965800 ms (FindLiveObjects: 1.413100 ms CreateObjectMapping: 0.463500 ms MarkObjects: 9.818300 ms  DeleteObjects: 0.263800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 43013.189398 seconds.
-  path: Assets/Davyd/Scena/Make/Level1.unity
-  artifactKey: Guid(5d0f9ea9cf5093a4f918bab2ffb45add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Davyd/Scena/Make/Level1.unity using Guid(5d0f9ea9cf5093a4f918bab2ffb45add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d579d5eb9644f84d76f319d84fe8d8') in 0.002539 seconds
+  Time since last request: 3729.274328 seconds.
+  path: Assets/Davyd/Scena/Make/Level2.unity
+  artifactKey: Guid(ee98a1b2d6377274db5781f37ef89dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Scena/Make/Level2.unity using Guid(ee98a1b2d6377274db5781f37ef89dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1afc8b952db3e5a9b9a815ebd783ca9') in 0.001845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.671487 seconds.
+  path: Assets/Davyd/Scena/Make/SnowMap.unity
+  artifactKey: Guid(1e60890a0e864b9408586df2fc58ca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Scena/Make/SnowMap.unity using Guid(1e60890a0e864b9408586df2fc58ca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680badae21eb68732eacae8f0800da8e') in 0.000437 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.528 seconds
-Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.423 seconds
+Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.542 seconds
-Domain Reload Profiling: 2069ms
-	BeginReloadAssembly (178ms)
+- Finished resetting the current domain, in  0.926 seconds
+Domain Reload Profiling: 1347ms
+	BeginReloadAssembly (155ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (273ms)
-		LoadAssemblies (344ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (252ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (11ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (1542ms)
+	FinalizeReload (926ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (931ms)
+		SetupLoadedEditorAssemblies (426ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (771ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 3.95 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3149 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3634.
-Memory consumption went from 188.3 MB to 188.3 MB.
-Total: 6.845700 ms (FindLiveObjects: 0.495800 ms CreateObjectMapping: 0.160400 ms MarkObjects: 5.965000 ms  DeleteObjects: 0.219500 ms)
+Unloading 3148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3631.
+Memory consumption went from 120.0 MB to 120.0 MB.
+Total: 3.042700 ms (FindLiveObjects: 0.304400 ms CreateObjectMapping: 0.252100 ms MarkObjects: 2.437600 ms  DeleteObjects: 0.047400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
@@ -321,62 +264,937 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 417.652730 seconds.
-  path: Assets/Artem/Scenes/ArtemTestScene
-  artifactKey: Guid(5572823013a4c694e93c5204da254f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Artem/Scenes/ArtemTestScene using Guid(5572823013a4c694e93c5204da254f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8681eb13c6eec2f9f174a236075ceb') in 0.006602 seconds
+  Time since last request: 76.713155 seconds.
+  path: Assets/Max/3level.unity
+  artifactKey: Guid(b2342a339b51d094d8015b5e41633f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Max/3level.unity using Guid(b2342a339b51d094d8015b5e41633f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d37247a4db48d84b7d6127522ba7c1') in 0.002232 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 5.156098 seconds.
-  path: Assets/Max/Materials/color black.mat
-  artifactKey: Guid(f008792cdae9a8342b63d746bc34ce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Max/Materials/color black.mat using Guid(f008792cdae9a8342b63d746bc34ce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cac664433e9c7e488a97c2261a7e9e8') in 0.376005 seconds
+  Time since last request: 72.246172 seconds.
+  path: Assets/Artem/Materials/Invisibleness.mat
+  artifactKey: Guid(9909a82bf5f73144997366c67fa2342d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Materials/Invisibleness.mat using Guid(9909a82bf5f73144997366c67fa2342d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ba18a09d45ba241c137577817997fd') in 0.093960 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Max/Materials/color green.mat
-  artifactKey: Guid(95671ec49cefc2e4b885fb428aef8725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Max/Materials/color green.mat using Guid(95671ec49cefc2e4b885fb428aef8725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fb5cb383cc03f7a76d72d6d51eaa59') in 0.049685 seconds
+  Time since last request: 10.457074 seconds.
+  path: Assets/Artem/Materials/yellow.mat
+  artifactKey: Guid(ac61bc6b84225494c8f9054a269f1e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Materials/yellow.mat using Guid(ac61bc6b84225494c8f9054a269f1e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211b1a4e5a321bbcc663049093ae3c35') in 0.018128 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Max/Materials/color red.mat
-  artifactKey: Guid(b6ae51d6be09fb047829e17a8df3925d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Max/Materials/color red.mat using Guid(b6ae51d6be09fb047829e17a8df3925d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db16d49e604372b6009fe377254018c') in 0.024028 seconds
+  Time since last request: 51.694759 seconds.
+  path: Assets/Davyd/Scena/Make/Level2.unity
+  artifactKey: Guid(ee98a1b2d6377274db5781f37ef89dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Scena/Make/Level2.unity using Guid(ee98a1b2d6377274db5781f37ef89dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6904a09b74f007fd17cbcadb6813ae31') in 0.000505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.665928 seconds.
+  path: Assets/Davyd/Scena/Make/Level3.unity
+  artifactKey: Guid(20e1e4b9120b050418d7a94eb0c2cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Scena/Make/Level3.unity using Guid(20e1e4b9120b050418d7a94eb0c2cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0550021989ec20b6129711d2a491f2e') in 0.000582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.347122 seconds.
+  path: Assets/Artem/Materials/yellow.mat
+  artifactKey: Guid(ac61bc6b84225494c8f9054a269f1e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Materials/yellow.mat using Guid(ac61bc6b84225494c8f9054a269f1e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c151123bc9aa314e3d9efd0d1ef27c') in 0.017311 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.019338 seconds.
-  path: Assets/Max/Prefabs/EnemyM.prefab
-  artifactKey: Guid(41e71920e8b7163428942b6bb3629541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Max/Prefabs/EnemyM.prefab using Guid(41e71920e8b7163428942b6bb3629541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd372683c24ff164e057c624c6600240c') in 0.042926 seconds
+  Time since last request: 69.095354 seconds.
+  path: Assets/Artem/Prefabs/Enemy.prefab
+  artifactKey: Guid(91603ae6d5f92814db32d58938d8a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Enemy.prefab using Guid(91603ae6d5f92814db32d58938d8a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11d937a07bea4af5751ed78f7ad02b8') in 0.038917 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 30
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Max/Prefabs/WayPoint 1.prefab
-  artifactKey: Guid(41925baf85f5ae64687227e62e2fee9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Max/Prefabs/WayPoint 1.prefab using Guid(41925baf85f5ae64687227e62e2fee9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d8af26d7190e1d971a28c8b0cfa165') in 0.004495 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Artem/Prefabs/Turret A.prefab
+  artifactKey: Guid(65880e87d6886284b8a13c56f2128b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Turret A.prefab using Guid(65880e87d6886284b8a13c56f2128b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f0a465f9276693f9a29483e0c120c5') in 0.015374 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 23
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Max/Prefabs/Sphere.prefab
-  artifactKey: Guid(7b4984a67d32ec2428cbcc1cb0f842d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Max/Prefabs/Sphere.prefab using Guid(7b4984a67d32ec2428cbcc1cb0f842d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840a0abd0fd2412dde0ec8203cd0d74c') in 0.024704 seconds
+  Time since last request: 70.240555 seconds.
+  path: Assets/Artem/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(3859062a9a65133438463988ff916632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Enemy 1.prefab using Guid(3859062a9a65133438463988ff916632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816d8fc50ac06036813f8e2b3c36f780') in 0.013587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.542325 seconds.
+  path: Assets/Artem/Prefabs/Enemy 2.prefab
+  artifactKey: Guid(c416431367d36284da3cad8813d8f459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Enemy 2.prefab using Guid(c416431367d36284da3cad8813d8f459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0873fca81caf2cfbc23409682a11ee6e') in 0.006999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 55.330646 seconds.
+  path: Assets/Artem/Prefabs/Enemy.prefab
+  artifactKey: Guid(91603ae6d5f92814db32d58938d8a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Enemy.prefab using Guid(91603ae6d5f92814db32d58938d8a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b9fc7db103aa4f63a8c57a8fd702e9') in 0.009519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.440 seconds
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.959 seconds
+Domain Reload Profiling: 1398ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (199ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (959ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (436ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3676.
+Memory consumption went from 120.4 MB to 120.4 MB.
+Total: 3.263100 ms (FindLiveObjects: 0.288900 ms CreateObjectMapping: 0.266800 ms MarkObjects: 2.647500 ms  DeleteObjects: 0.058800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46.257702 seconds.
+  path: Assets/Artem/Materials/yellow.mat
+  artifactKey: Guid(ac61bc6b84225494c8f9054a269f1e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Materials/yellow.mat using Guid(ac61bc6b84225494c8f9054a269f1e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5692ff16da6af6e4915ffef3d642daa2') in 0.081294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.197430 seconds.
+  path: Assets/Artem/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Enemy 1.prefab using Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef84663a640e3bb61059ae42faddcd7') in 0.029320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 8.068176 seconds.
+  path: Assets/Artem/Prefabs/EnemyStandart.prefab
+  artifactKey: Guid(91603ae6d5f92814db32d58938d8a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemyStandart.prefab using Guid(91603ae6d5f92814db32d58938d8a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb201a46cd9a7ea8ffed4d87adc210aa') in 0.008709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 5.365641 seconds.
+  path: Assets/Artem/Prefabs/EnemySlow.prefab
+  artifactKey: Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemySlow.prefab using Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6520055a23a8f24b029f26786f9dae0') in 0.011113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 11.743002 seconds.
+  path: Assets/Artem/Prefabs/EnemySlow.prefab
+  artifactKey: Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemySlow.prefab using Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10af4cb4f64f020d28b399d5d89fa6fd') in 0.008368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 20.046287 seconds.
+  path: Assets/Artem/Materials/New Material 1.mat
+  artifactKey: Guid(57237b29e3a44d64c9b37f363ad14431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Materials/New Material 1.mat using Guid(57237b29e3a44d64c9b37f363ad14431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c67ddf39e91ac22dec848991cacf3d') in 0.017195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.106295 seconds.
+  path: Assets/Artem/Prefabs/EnemySlow.prefab
+  artifactKey: Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemySlow.prefab using Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8065368730dce35386579a8a94da9c') in 0.019188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 10.774172 seconds.
+  path: Assets/Artem/Prefabs/EnemyStandart.prefab
+  artifactKey: Guid(91603ae6d5f92814db32d58938d8a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemyStandart.prefab using Guid(91603ae6d5f92814db32d58938d8a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fd3ff2c1549018d8418f5e423cb708') in 0.010942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.575563 seconds.
+  path: Assets/Artem/Prefabs/EnemyStandart.prefab
+  artifactKey: Guid(91603ae6d5f92814db32d58938d8a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemyStandart.prefab using Guid(91603ae6d5f92814db32d58938d8a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87330501288f002651b1a44c6b64008') in 0.008889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 4.445072 seconds.
+  path: Assets/Artem/Prefabs/EnemyStandart.prefab
+  artifactKey: Guid(91603ae6d5f92814db32d58938d8a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemyStandart.prefab using Guid(91603ae6d5f92814db32d58938d8a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58e50c4959aa655303c4b3960fd9636') in 0.011315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 11.954759 seconds.
+  path: Assets/Artem/Prefabs/EnemySlow.prefab
+  artifactKey: Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemySlow.prefab using Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4de0fd885604fa4321a058ea7717778') in 0.009700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 3.615655 seconds.
+  path: Assets/Artem/Prefabs/EnemySlow.prefab
+  artifactKey: Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemySlow.prefab using Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdce8194c652e8c1a8d302e549e32266') in 0.008504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.390606 seconds.
+  path: Assets/Artem/Prefabs/EnemySlow.prefab
+  artifactKey: Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemySlow.prefab using Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d6af4a7b775c0c60be656a9de5a3d2') in 0.010958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.187030 seconds.
+  path: Assets/Artem/Prefabs/EnemySlow.prefab
+  artifactKey: Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemySlow.prefab using Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ca57d952fe5efdf1cd80fa6893882f') in 0.013101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 3.608025 seconds.
+  path: Assets/Artem/Prefabs/EnemySlow.prefab
+  artifactKey: Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemySlow.prefab using Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9078e9419eb881e30ac604774087924') in 0.008683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.394579 seconds.
+  path: Assets/Artem/Prefabs/EnemySlow.prefab
+  artifactKey: Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemySlow.prefab using Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a2268cc4525e19ba8f014c9a3842c4') in 0.008327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 40.253580 seconds.
+  path: Assets/Artem/Prefabs/EnemyStandart 1.prefab
+  artifactKey: Guid(668a7c218cee1b14398ae0b87cc8f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemyStandart 1.prefab using Guid(668a7c218cee1b14398ae0b87cc8f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be55c4c91047ea8ac600963f7d4b019') in 0.007951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.024924 seconds.
+  path: Assets/Artem/Prefabs/EnemySlow.prefab
+  artifactKey: Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemySlow.prefab using Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e7970ac47189f27d6ac763de4968f7') in 0.012602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 11.414720 seconds.
+  path: Assets/Artem/Prefabs/EnemyStandart 1.prefab
+  artifactKey: Guid(668a7c218cee1b14398ae0b87cc8f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemyStandart 1.prefab using Guid(668a7c218cee1b14398ae0b87cc8f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae93c22566335946ef8d505f68a79372') in 0.008903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 4.992123 seconds.
+  path: Assets/Artem/Prefabs/Laser Beamer/Laser Beamer.prefab
+  artifactKey: Guid(9483a1a9ab46b054fa16575b6d19ff59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Laser Beamer/Laser Beamer.prefab using Guid(9483a1a9ab46b054fa16575b6d19ff59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2079bacdb34b7f79df7f4a8577d2f28d') in 0.026438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 2.263005 seconds.
+  path: Assets/Artem/Materials/New Material 1.mat
+  artifactKey: Guid(57237b29e3a44d64c9b37f363ad14431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Materials/New Material 1.mat using Guid(57237b29e3a44d64c9b37f363ad14431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bbe6971029571c48dbad24b8ee2da4') in 0.027898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.845363 seconds.
+  path: Assets/Davyd/Scena/Make/Level3.unity
+  artifactKey: Guid(20e1e4b9120b050418d7a94eb0c2cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Scena/Make/Level3.unity using Guid(20e1e4b9120b050418d7a94eb0c2cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e349a4badfe34ec99b41e72a1f2cc108') in 0.000470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 113.364054 seconds.
+  path: Assets/Artem/Prefabs/EnemySlow.prefab
+  artifactKey: Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemySlow.prefab using Guid(42738a8191c2d3c4ba62f53a218084b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ec4a44da186b06eea1f543a27226b5') in 0.015208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 10.225574 seconds.
+  path: Assets/Artem/Prefabs/EnemyFast.prefab
+  artifactKey: Guid(668a7c218cee1b14398ae0b87cc8f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemyFast.prefab using Guid(668a7c218cee1b14398ae0b87cc8f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19d2a72bd1391af211c6b7098d621b7') in 0.007089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 9.873256 seconds.
+  path: Assets/Artem/Materials/New Material 2.mat
+  artifactKey: Guid(25f5d2fda9df3044c932ad82311985ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Materials/New Material 2.mat using Guid(25f5d2fda9df3044c932ad82311985ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a283e24b68f77bb7f82a3e55346a1cd8') in 0.023977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 72.976369 seconds.
+  path: Assets/Artem/Prefabs/EnemyFast.prefab
+  artifactKey: Guid(668a7c218cee1b14398ae0b87cc8f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemyFast.prefab using Guid(668a7c218cee1b14398ae0b87cc8f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0987216458b88363c5a2a97dfbeff579') in 0.017202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 1.567892 seconds.
+  path: Assets/Artem/Prefabs/Standart/Bullet.prefab
+  artifactKey: Guid(3bfc1a6c6c133904ca5692e9b86087ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Standart/Bullet.prefab using Guid(3bfc1a6c6c133904ca5692e9b86087ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411c89a7aa7991ccac3a38bb14755809') in 0.014045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Artem/Prefabs/Standart/Turret.prefab
+  artifactKey: Guid(434d19b0c05fedf4480ce3cdf2a35d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Standart/Turret.prefab using Guid(434d19b0c05fedf4480ce3cdf2a35d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6373bd4de5cc7c523b22b20a19eb23e5') in 0.031764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 26.197686 seconds.
+  path: Assets/Artem/Prefabs/Standart/TurretUpgraded.prefab
+  artifactKey: Guid(d9e2296f0567c4843b4948b7dad9cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Standart/TurretUpgraded.prefab using Guid(d9e2296f0567c4843b4948b7dad9cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4207687b6a278aabd7294a8d5ff97e5d') in 0.013007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 16.971203 seconds.
+  path: Assets/Artem/Prefabs/Standart/Bullet.prefab
+  artifactKey: Guid(3bfc1a6c6c133904ca5692e9b86087ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Standart/Bullet.prefab using Guid(3bfc1a6c6c133904ca5692e9b86087ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c953bab603bc5369f3794b717acccf80') in 0.011334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 8.164577 seconds.
+  path: Assets/Artem/Prefabs/Standart/BulletUpgraded.prefab
+  artifactKey: Guid(31596a3a469a21748b5ba988c4fc461a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Standart/BulletUpgraded.prefab using Guid(31596a3a469a21748b5ba988c4fc461a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e666786d0af86f6036eb59b55b08f1') in 0.007011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.306575 seconds.
+  path: Assets/Artem/Prefabs/Standart/BulletUpgraded.prefab
+  artifactKey: Guid(31596a3a469a21748b5ba988c4fc461a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Standart/BulletUpgraded.prefab using Guid(31596a3a469a21748b5ba988c4fc461a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa747463c2902d79be944ff253993a0') in 0.008765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 9.361951 seconds.
+  path: Assets/Artem/Prefabs/Missile Launcher/Missile.prefab
+  artifactKey: Guid(26d145346fd9dad4597c42e6630c3099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Missile Launcher/Missile.prefab using Guid(26d145346fd9dad4597c42e6630c3099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9616a19b3ed644f5200acd6a629178b') in 0.028647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Artem/Prefabs/Missile Launcher/Missile Launcher Upgraded.prefab
+  artifactKey: Guid(aacb1ddef586c27418ee3ad4496c88cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Missile Launcher/Missile Launcher Upgraded.prefab using Guid(aacb1ddef586c27418ee3ad4496c88cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd08fb7a6475f361efaef68dab188ac') in 0.021536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Artem/Prefabs/Missile Launcher/MissileUpgraded.prefab
+  artifactKey: Guid(acf14c48999810f4ca0d785a3bb5bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Missile Launcher/MissileUpgraded.prefab using Guid(acf14c48999810f4ca0d785a3bb5bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e8d6af5e5b2bd680368422cee939ac') in 0.022105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 65.673771 seconds.
+  path: Assets/Artem/Prefabs/Missile Launcher/Missile Launcher.prefab
+  artifactKey: Guid(644d5758cd3eb9d49ae2ca81bbe82075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Missile Launcher/Missile Launcher.prefab using Guid(644d5758cd3eb9d49ae2ca81bbe82075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c547d16cf485fe952090e5aa914ca010') in 0.014956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 6.557347 seconds.
+  path: Assets/Artem/Prefabs/Missile Launcher/MissileUpgraded.prefab
+  artifactKey: Guid(acf14c48999810f4ca0d785a3bb5bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/Missile Launcher/MissileUpgraded.prefab using Guid(acf14c48999810f4ca0d785a3bb5bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481058bf3bd417336f491f08c5548cde') in 0.009839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.423 seconds
+Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.871 seconds
+Domain Reload Profiling: 1292ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (871ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (396ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.6 KB). Loaded Objects now: 3679.
+Memory consumption went from 120.5 MB to 120.5 MB.
+Total: 3.374800 ms (FindLiveObjects: 0.254700 ms CreateObjectMapping: 0.203600 ms MarkObjects: 2.848300 ms  DeleteObjects: 0.067400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 273.605058 seconds.
+  path: Assets/Artem/Prefabs/EnemyFast.prefab
+  artifactKey: Guid(668a7c218cee1b14398ae0b87cc8f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artem/Prefabs/EnemyFast.prefab using Guid(668a7c218cee1b14398ae0b87cc8f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba226560127114bd5c41cc60b5d88a3') in 0.099385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.392 seconds
+Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.847 seconds
+Domain Reload Profiling: 1237ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (176ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (847ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (396ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3682.
+Memory consumption went from 120.5 MB to 120.5 MB.
+Total: 2.802500 ms (FindLiveObjects: 0.247500 ms CreateObjectMapping: 0.221600 ms MarkObjects: 2.283100 ms  DeleteObjects: 0.049500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 135.115857 seconds.
+  path: Assets/Davyd/Prefabs/Game/Enemy Death Effect.prefab
+  artifactKey: Guid(dadf173e15c611d4198364320416fba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Prefabs/Game/Enemy Death Effect.prefab using Guid(dadf173e15c611d4198364320416fba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9491c3ccb5021cdd90929c3dd355827') in 0.081410 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Davyd/Prefabs/Game/Turret.prefab
+  artifactKey: Guid(94969b54a98f0e64daf38ae7fbe5a377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davyd/Prefabs/Game/Turret.prefab using Guid(94969b54a98f0e64daf38ae7fbe5a377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b800063da1c98ca5c4cfeaa8a15a63bc') in 0.024262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.391 seconds
+Refreshing native plugins compatible for Editor in 4.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.885 seconds
+Domain Reload Profiling: 1275ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (400ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3685.
+Memory consumption went from 120.5 MB to 120.5 MB.
+Total: 3.829400 ms (FindLiveObjects: 0.340000 ms CreateObjectMapping: 0.439900 ms MarkObjects: 3.001700 ms  DeleteObjects: 0.046900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.394 seconds
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.891 seconds
+Domain Reload Profiling: 1283ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (891ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (399ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3149 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3688.
+Memory consumption went from 120.8 MB to 120.7 MB.
+Total: 2.916700 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.273200 ms MarkObjects: 2.330400 ms  DeleteObjects: 0.045900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.403 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.879 seconds
+Domain Reload Profiling: 1280ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (879ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (404ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3149 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3691.
+Memory consumption went from 120.8 MB to 120.7 MB.
+Total: 2.895400 ms (FindLiveObjects: 0.271900 ms CreateObjectMapping: 0.239900 ms MarkObjects: 2.334200 ms  DeleteObjects: 0.048500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.405 seconds
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.042 seconds
+Domain Reload Profiling: 1445ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1042ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (495ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3149 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3694.
+Memory consumption went from 120.8 MB to 120.7 MB.
+Total: 3.503000 ms (FindLiveObjects: 0.399800 ms CreateObjectMapping: 0.375300 ms MarkObjects: 2.677300 ms  DeleteObjects: 0.049600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.395 seconds
+Refreshing native plugins compatible for Editor in 2.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 1267ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (874ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (404ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (290ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3149 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3697.
+Memory consumption went from 120.8 MB to 120.7 MB.
+Total: 3.053300 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.237000 ms MarkObjects: 2.500600 ms  DeleteObjects: 0.051900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
