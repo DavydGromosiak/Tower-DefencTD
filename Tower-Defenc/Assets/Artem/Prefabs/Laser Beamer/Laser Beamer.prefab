@@ -10000,7 +10000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd54b745f1b2d04791478961e91ffa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 30
+  range: 35
   bulletPrefab: {fileID: 0}
   fireRate: 1
   useLaser: 1

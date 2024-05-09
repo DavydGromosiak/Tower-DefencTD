@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 8424394043339287671}
   - component: {fileID: 7809634292972189621}
   m_Layer: 0
-  m_Name: EnemyBoss
+  m_Name: EnemyBoss2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -284,7 +284,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -113.73, y: 15.4, z: -66.64}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 12, y: 12, z: 12}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5115325357086860154}
@@ -375,8 +375,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startSpeed: 15
   speed: 0
-  startHealth: 1500
-  worth: 500
+  startHealth: 5000
+  worth: 0
   deathEffect: {fileID: 7921058428278543856, guid: dadf173e15c611d4198364320416fba1, type: 3}
   healthBar: {fileID: 5200826058640780668}
 --- !u!114 &7809634292972189621
